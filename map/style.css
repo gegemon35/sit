@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+
+    margin-right: 200px;
+}
+
+.mb-lg-0 {
+    margin: 0 auto;
+    margin-bottom: 0!important;
+}
+
+.navbar-expand-lg {
+    /* background-color: #8585858f; */
+
+}
+.navbar {
+    width: 1920px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.con{
+    background-color: green;
+}
+.conn{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+
+}
+
+/* KARTA */
+
+.maps{
+    width: 100%;
+    height: 70vh;
+}
+/* fooooooooooooooot */
+.btn-primary1 {
+    font-weight: 500;
+    color: #000;
+    /* background-color: #0d6efd; */
+    /* border-color: #0d6efd; */
+}
+.offset-1 {
+    width: 385px;
+    margin-left: 42%;
+}
+.col-2 {
+    text-align: center;
+    flex: 0 0 auto;
+    width: 20%;
+}
+.col-3 {
+    text-align: center;
+    flex: 0 0 auto;
+    width: 25%;
+}
+.imgg{
+    width: 50px;
+}
+.my-4 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 0rem!important;
+}
+#py-4 {
+    padding-top: 1.5rem!important;
+
+}
+#py-5 {
+    background: #8c8c8c;
+    padding-top: 3rem!important;
+    padding-bottom: 0rem!important;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}
+.row {
+    justify-content: center;
+}
+.texttt{
+
+}
+#justify-content-between {
+    justify-content: space-evenly!important;
+    padding-bottom: 0rem!important;
+    margin-bottom: 0rem!important;
+}
+
+
+/* Адаптация  */
+@media (max-width: 1240px) {
+    .navbar {
+        width: 1240px;
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+  }
+
+  @media (max-width: 360px) {
+    .navbar {
+        width: 360px;
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+      
+      #nav.active {
+        display: block;
+      }
+      
+      #nav.colored {
+        background-color: green;
+      }
+
+}
